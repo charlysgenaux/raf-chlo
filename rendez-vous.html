@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Raf&Chlo - Institut d'Esthétique</title>
+</head>
+<body>
+    <!--Barre de Navigation-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="images/Logo-lg.png" width="250" alt="Logo">
+                </a>
+                <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Prestations</a>
+                            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                <li><a href="#microblandig" class="dropdown-item">Microblandig de Sourcils</a></li>
+                                <li><a href="#microshading" class="dropdown-item">Microshading de Sourcils</a></li>
+                                <li><a href="#lissageBresilien" class="dropdown-item">Lissage Brésilien</a></li>
+                                <li><a href="#soinBotox" class="dropdown-item">Soin botox capilaire</a></li>
+                                <li><a href="#candyLips" class="dropdown-item">Candy Lips</a></li>
+                                <li><a href="#bronzage" class="dropdown-item">bronzage sans UV</a></li>
+                            </ul>             
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Rendez-vous</a></li>
+                    </ul>
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-lg text-white" href="tel:0617337397"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg> 06 17 33 73 97</button
+                    </div>               
+                </div>
+            </div>
+        </nav>
+        <!--Carroussel-->
+        <div id="myCaroussel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+                    <div class="container-fluid">
+                        <div class="carousel-caption text-end">
+                            <h1>Bronzage sans UV</h1>
+                            <p>Le gel bronzant est efficace pour avoir bonne mine sans vous exposer au soleil.</p>
+                            <p><a class="btn btn-sm btn-danger" href="#rendez-vous">Prendre Rendez-vous</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+                    <div class="container-fluid">
+                        <div class="carousel-caption text-end">
+                            <h2>Candy Lips</h2>
+                            <p>Afin de donner du volume mais aussi une couleur beaucoup plus naturelle.</p>
+                            <p><a class="btn btn-danger " href="#rendez-vous">Prendre rendez-vous</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h2>Microblanding des sourcils</h2>
+                            <p>Cette méthode est idéale pour ceux qui souhaitent améliorer l'apparence de leurs sourcils.</p>
+                            <p><a class="btn btn-danger" href="#rendez-vous">Prendre rendez-vous</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--introduction avec Slogan-->
+    <main>
+        <div class="container">
+            <div>
+                <h2 class="slogan">Votre esthétique c'est notre métier</h2>
+                <p>Venez découvrir notre institut et connaître tout ce qu'on peu faire pour vous. Nos consultations sont gratuites.</p>
+            </div>
+          
+        <!--Localisation avec Google maps-->
+        <div class="container">
+            <h2>Localisation</h2>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=13%20route%20de%20Montfavet,%2084000%20Avignon&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style><a href="https://www.embedgooglemap.net">map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div></div>
+
+        </div>
+    </main>
+
+    <footer>
+        <section>
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <hr>
+                    <div class="col-md-8 col-lg-8 col-xl-9 mx-auto mb-4">
+                        <img src="images/Logo-lg.png" width="305" alt="">
+                        <p>
+                            Votre Institut d'Esthétique basé sur Avignon.
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p>13 route de Montfavet,<br> 84000 Avignon</p>
+                        <p>contact@raphchlo.fr
+                        </p>
+                        <p>06 17 33 73 97</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright: Francisco GENAUX
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
