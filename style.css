@@ -1,0 +1,9 @@
+.slogan {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.slogan + p{
+    text-align: center;
+}
+
